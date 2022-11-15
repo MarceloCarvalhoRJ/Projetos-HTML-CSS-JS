@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/*font-family: 'Sriracha', cursive;*/
+
+html, body {
+    margin: 0%;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+nav {
+    width: 17%;
+    background: linear-gradient(rgb(153, 31, 7), rgba(234, 184, 174, 0.801)); 
+    padding-top: 50px;
+    line-height: 30px;  
+}
+
+a {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding-inline-start: -40px;
+   
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(122, 98, 20), rgba(122, 98, 20, 0.692));
+    min-height: 200px;
+    display: flex;
+}
+
+header > h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    font-variant: small-caps;
+    padding-left: 120px;
+    padding-top: 20px;   
+}
+
+em {
+    font-family: 'Sriracha', cursive;
+    font-size: 1.2em;
+    font-variant: normal;
+}
+
+.logo {
+    width: 180px;
+    height: 150px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#coração {
+    height: 150px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-top: 20px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+main {
+    background-color: rgba(53, 40, 3, 0.689);
+    min-height: 500px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;  
+}
+
+.imagem {
+    background-color: white;
+    min-height: 500px;
+    background-image: url(main01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+main > h1, h2, p {
+    text-align: center;
+    color: #f1f1f1;
+    padding-top: 10px;
+}
+
+main > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 30px;
+}
+
+#lista {
+    color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: left;
+    margin-top: -20px;
+
+}
+
+footer {
+    background-color: rgb(99, 56, 240);
+    min-height: 50px;
+}
