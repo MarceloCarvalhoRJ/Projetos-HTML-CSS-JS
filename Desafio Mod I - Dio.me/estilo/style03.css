@@ -27,7 +27,6 @@ nav {
     padding-right: 20px;
     line-height: 30px; 
     
-
 }
 
 #menu {
@@ -55,33 +54,36 @@ a:hover {
 }
     
 header {
-    background-image: url(header02.webp);
+    background-image: url(../imagens/header03.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
     display: flex;
-    box-shadow: inset 30px 30px 30px 30px rgba(0, 0, 0, 0.615);
 }
 
 header > h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-weight: bolder;
-    font-size: 2.2em;
+    font-size: 3em;
     text-align: center;
     font-variant: small-caps;
-    padding-left: 90px;
-    text-shadow: 1px 1px 2px black;  
+    text-shadow: 1px 1px 2px black;
+    margin-left: -50px;
+    padding-top: 120px;
+    
 }
 
 header > h1 > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: .9em;
+    font-size: .8em;
     text-align: center;
     text-shadow: none;
     font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #botao-menu {                   /*criou um oval embaixo da imagem seta */
@@ -91,20 +93,14 @@ header > h1 > p {
 }
 
 #botao-menu > img {    /* imagem PNG (fundo transparente)*/
-    height: 40px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     
 }
 
 #botao-menu > img:hover {
     transform: translatey(10px);   /* move a imagem da seta para baixo (eixo y)*/
     transition-duration: 500ms;    /* duracao da animação*/
-}
-
-em {
-    font-family: 'Sriracha', cursive;
-    font-size: 1.2em;
-    font-variant: normal;
 }
 
 .logo {
@@ -121,7 +117,7 @@ em {
 }
 
 main {
-    min-height: 500px;
+    min-height: 350px;
     padding-left: 20px;
     padding-right: 20px; 
     display: flex;
@@ -137,18 +133,20 @@ main {
     background-attachment: fixed;
 }
 
-#quem {
+.quem {
     text-align: center;
     padding-top: 40px;
 }
 
-.sobre {
-    width: 300px;
-    height: 100%;
+.conceito {
+    width: 500px;
+    height: 100px;
     padding-left: 10px; 
     padding-right: 10px;
     padding-top: 60px;
     font-family: cursive;
+    font-size: 1.2em;
+    font-weight: lighter;
     line-height: 30px;
 }
 
@@ -171,12 +169,54 @@ hr.separator {
     color: rgb(78, 76, 76);
 }
 
-.lista {
-    padding-left: 20px;
-    padding-bottom: 30px;
+table {
+    width: 800px;
+    height: 400px;
+    background-image: radial-gradient(rgb(250, 232, 206), rgb(255, 244, 227));
+    color:rgb(53, 50, 50);
+    margin: auto;
+    font-size: 1.2em;
+    box-shadow: 5px 5px 10px 8px  rgba(0, 0, 0, 0.205);
+    overflow: hidden;
+    border-collapse: collapse;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+th, td {
+    border: 2px solid rgba(107, 106, 106, 0.295);
+    padding: 10px;
+}
+
+tbody > tr:nth-child(odd) {
+    background-color: rgb(250, 241, 230);
+}
+
+tbody > tr:hover {
+    background-color: rgb(204, 211, 217)    ;
+}
+
+th {
+    text-shadow: 1px 1px 2px rgba(40, 38, 38, 0.663);
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+.tab-hour {
+    text-align: center;
+}
+
+.price {
+    text-align: right;
 }
 
 footer {
     background-color: rgb(99, 56, 240);
     min-height: 50px;
+    text-align: center;
+    color: white;
 }

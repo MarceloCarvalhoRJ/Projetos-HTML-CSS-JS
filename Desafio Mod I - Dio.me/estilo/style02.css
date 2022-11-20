@@ -55,7 +55,7 @@ a:hover {
 }
     
 header {
-    background-image: url(header02.webp);
+    background-image: url(../imagens/header02.webp);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,9 +91,8 @@ header > h1 > p {
 }
 
 #botao-menu > img {    /* imagem PNG (fundo transparente)*/
-    height: 40px;
-    width: 35px;
-    
+    height: 30px;
+    width: 30px;
 }
 
 #botao-menu > img:hover {
@@ -130,7 +129,7 @@ main {
 
 .content {
     background-color: white;
-    background-image: url(header2.1.webp);
+    background-image: url(../imagens/header2.1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
